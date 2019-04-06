@@ -428,9 +428,17 @@ header{
 
 /* ********************************* */
 @media screen and (max-width: 1000px){
+    .menu{
+        display: none;
+    }
+    .sandwich{
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 1%;
+    }
     .banner{
         /* background: url(../images/photo.jpg) -350px -40px; */
-        background-size: 130%
+        background-size: 150%
     }
     .education{
         background-size: 150%;
@@ -473,17 +481,6 @@ header{
     }
 }
 @media screen and (max-width: 480px){
-    header{
-        width: 98%;
-    }
-    .menu{
-        display: none;
-    }
-    .sandwich{
-        display: inline-block;
-        margin-left: 15%;
-        margin-top: 3%;
-    }
     .banner{
         -webkit-background-size: auto;
     }
@@ -546,9 +543,6 @@ header{
     }
 }
 @media screen and (max-width: 320px){
-    header{
-        width: 97%;
-    }
     .skills > div:first-child > div:nth-child(5){
        display: none;
     }
