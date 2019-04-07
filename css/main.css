@@ -23,6 +23,7 @@ html{
     margin: 30px 0 0 -19px;
     font-family: 'Heebo', sans-serif;
     color: #fff;
+    margin-bottom: -10px;
 }
 header{
     width: 100.8%;
@@ -440,12 +441,12 @@ header{
         margin-left: 15%;
         margin-top: 1%;
     }
+    header{
+        width: 100.4%;
+    }
     .banner{
         /* background: url(../images/photo.jpg) -350px -40px; */
         background-size: 150%
-    }
-    header{
-        width: 100%;
     }
     .education{
         background-size: 150%;
@@ -490,6 +491,9 @@ header{
 @media screen and (max-width: 480px){
     .banner{
         -webkit-background-size: auto;
+    }
+    header{
+        width: 98.5%;
     }
     .skills span{
         font-size: 1.8rem;
@@ -587,6 +591,9 @@ header{
     }
     .heading{
         font-size: x-small;
+    }
+    header{
+        width: 97%;
     }
     .about > div:nth-child(5){
         border: 130px solid transparent;
